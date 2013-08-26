@@ -64,12 +64,12 @@ int GameScene::getTag(int posIndexX, int posIndexY) {
 
 //プレイヤー表示
 void GameScene::showPlayer() {
-    kPlayer blockType = kPlayerFront;
+    kPlayer playerType = kPlayerFront;
     int x = 0;
     int y = 0;
     int tag = getTag(x, y);
 
-    PlayerSprite *pPlayer = PlayerSprite::createWithPlayerType(kPlayerFront);
+    PlayerSprite *pPlayer = PlayerSprite::createWithPlayerType(playerType);
     pPlayer->setPosition(getPosition(x, y));
     m_background->addChild(pPlayer, kZOrderPlayer, tag);
 }

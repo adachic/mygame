@@ -28,7 +28,7 @@ protected:
     void showBackground();
 
     float m_playerSize;
-    std::map<kPlayer, std::list<int>> m_blockTags;
+    std::map<kPlayer, std::list<int>> m_PlayerTags;
 
     void initForVariables();
 

@@ -24,6 +24,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
     // set FPS. the default value is 1.0/60 if you don't call this
     director->setAnimationInterval(1.0 / 60);
 
+    director->setContentScaleFactor(320.0f / director->getWinSize().width);
 
     // create a scene. it's an autorelease object
     Scene *scene = GameScene::scene();
