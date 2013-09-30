@@ -5,4 +5,13 @@ enum kPlayer
 {
     kPlayerFront,
 };
+
+enum kCookie
+{
+    kCookiePlane,
+    kCookieBlue,
+    kCookieGreen,
+    kCookieRed,
+    kCookieYellow,
+};
 #endif

@@ -36,9 +36,15 @@
 		D4EF949C15BD2D8E00D803EB /* Icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = D4EF949B15BD2D8E00D803EB /* Icon-114.png */; };
 		D4EF949E15BD2D9600D803EB /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = D4EF949D15BD2D9600D803EB /* Icon-72.png */; };
 		D4EF94A015BD2D9800D803EB /* Icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = D4EF949F15BD2D9800D803EB /* Icon-144.png */; };
-		E30F5028B81C7685982C90E4 /* GameScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = E30F5F89A6B6D86AA414420D /* GameScene.mm */; };
+		E30F5028B81C7685982C90E4 /* BattleScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = E30F5F89A6B6D86AA414420D /* BattleScene.mm */; };
 		E30F52C9DE03B50F4F14C59A /* player01_01.png in Resources */ = {isa = PBXBuildFile; fileRef = E30F5E7568DE47D6B3A43785 /* player01_01.png */; };
+		E30F52EB6E328853D43796F5 /* Yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = E30F512634AA2C91627009B0 /* Yellow.png */; };
+		E30F52F26DDE01AFC8BB1C5C /* Red.png in Resources */ = {isa = PBXBuildFile; fileRef = E30F5E2EE5A007C7BDF83585 /* Red.png */; };
+		E30F5340303611689A6229DD /* CookieSprite.mm in Sources */ = {isa = PBXBuildFile; fileRef = E30F59BEE8770746A218FB99 /* CookieSprite.mm */; };
 		E30F53CAA3999611FBCE82C4 /* PlayerSprite.mm in Sources */ = {isa = PBXBuildFile; fileRef = E30F525C82ABA92B7BC572AE /* PlayerSprite.mm */; };
+		E30F55FAEFA391EB10656B5D /* Green.png in Resources */ = {isa = PBXBuildFile; fileRef = E30F5F25EDFE73220ED4D5C0 /* Green.png */; };
+		E30F55FBAB8D1E435867DC7D /* Plane.png in Resources */ = {isa = PBXBuildFile; fileRef = E30F5F7CCBF010DA4D198468 /* Plane.png */; };
+		E30F5918E5DA485AA2CE7587 /* Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = E30F5D29A52AF0F21B65B54E /* Blue.png */; };
 		E30F59751EB6E6FBA3AACFC4 /* white_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = E30F5CF5ED59E5D7FC36CA28 /* white_bg.png */; };
 /* End PBXBuildFile section */
 
@@ -210,13 +216,20 @@
 		D4EF949D15BD2D9600D803EB /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../proj.ios/Icon-72.png"; sourceTree = "<group>"; };
 		D4EF949F15BD2D9800D803EB /* Icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-144.png"; path = "../proj.ios/Icon-144.png"; sourceTree = "<group>"; };
 		D4F9F37B12E54555005CA6D2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		E30F512634AA2C91627009B0 /* Yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yellow.png; sourceTree = "<group>"; };
 		E30F525C82ABA92B7BC572AE /* PlayerSprite.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PlayerSprite.mm; sourceTree = "<group>"; };
-		E30F5522EA80941CAB0173DF /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		E30F5522EA80941CAB0173DF /* BattleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BattleScene.h; sourceTree = "<group>"; };
+		E30F57713F930EA3462A8BDA /* CookieSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CookieSprite.h; sourceTree = "<group>"; };
+		E30F59BEE8770746A218FB99 /* CookieSprite.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CookieSprite.mm; sourceTree = "<group>"; };
 		E30F5A51EA9A17D903A231C5 /* PlayerSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerSprite.h; sourceTree = "<group>"; };
 		E30F5B9303A50DE6AE300EFF /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 		E30F5CF5ED59E5D7FC36CA28 /* white_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white_bg.png; sourceTree = "<group>"; };
+		E30F5D29A52AF0F21B65B54E /* Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blue.png; sourceTree = "<group>"; };
+		E30F5E2EE5A007C7BDF83585 /* Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Red.png; sourceTree = "<group>"; };
 		E30F5E7568DE47D6B3A43785 /* player01_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player01_01.png; sourceTree = "<group>"; };
-		E30F5F89A6B6D86AA414420D /* GameScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GameScene.mm; sourceTree = "<group>"; };
+		E30F5F25EDFE73220ED4D5C0 /* Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Green.png; sourceTree = "<group>"; };
+		E30F5F7CCBF010DA4D198468 /* Plane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Plane.png; sourceTree = "<group>"; };
+		E30F5F89A6B6D86AA414420D /* BattleScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BattleScene.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -265,11 +278,13 @@
 			children = (
 				1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */,
 				1AFAF8B416D35DE700DB1158 /* AppDelegate.h */,
-				E30F5F89A6B6D86AA414420D /* GameScene.mm */,
-				E30F5522EA80941CAB0173DF /* GameScene.h */,
+				E30F5F89A6B6D86AA414420D /* BattleScene.mm */,
+				E30F5522EA80941CAB0173DF /* BattleScene.h */,
 				E30F5B9303A50DE6AE300EFF /* Config.h */,
 				E30F525C82ABA92B7BC572AE /* PlayerSprite.mm */,
 				E30F5A51EA9A17D903A231C5 /* PlayerSprite.h */,
+				E30F59BEE8770746A218FB99 /* CookieSprite.mm */,
+				E30F57713F930EA3462A8BDA /* CookieSprite.h */,
 			);
 			name = Classes;
 			path = ../classes;
@@ -349,6 +364,7 @@
 				D4EF949D15BD2D9600D803EB /* Icon-72.png */,
 				E30F5E3451BAB88D4F19C5A2 /* Char */,
 				E30F5CF5ED59E5D7FC36CA28 /* white_bg.png */,
+				E30F5FDFD88941CC511B665F /* Cookies */,
 			);
 			name = Resources;
 			path = ../Resources;
@@ -360,6 +376,18 @@
 				E30F5E7568DE47D6B3A43785 /* player01_01.png */,
 			);
 			path = Char;
+			sourceTree = "<group>";
+		};
+		E30F5FDFD88941CC511B665F /* Cookies */ = {
+			isa = PBXGroup;
+			children = (
+				E30F512634AA2C91627009B0 /* Yellow.png */,
+				E30F5F7CCBF010DA4D198468 /* Plane.png */,
+				E30F5E2EE5A007C7BDF83585 /* Red.png */,
+				E30F5F25EDFE73220ED4D5C0 /* Green.png */,
+				E30F5D29A52AF0F21B65B54E /* Blue.png */,
+			);
+			path = Cookies;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -538,6 +566,11 @@
 				1AFAF8BE16D35E4900DB1158 /* HelloWorld.png in Resources */,
 				E30F52C9DE03B50F4F14C59A /* player01_01.png in Resources */,
 				E30F59751EB6E6FBA3AACFC4 /* white_bg.png in Resources */,
+				E30F52EB6E328853D43796F5 /* Yellow.png in Resources */,
+				E30F55FBAB8D1E435867DC7D /* Plane.png in Resources */,
+				E30F52F26DDE01AFC8BB1C5C /* Red.png in Resources */,
+				E30F55FAEFA391EB10656B5D /* Green.png in Resources */,
+				E30F5918E5DA485AA2CE7587 /* Blue.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,8 +585,9 @@
 				1AC3624916D4A1E8000847F2 /* AppController.mm in Sources */,
 				1AC3624B16D4A1E8000847F2 /* main.m in Sources */,
 				1AFCDA8216D4A25900906EA6 /* RootViewController.mm in Sources */,
-				E30F5028B81C7685982C90E4 /* GameScene.mm in Sources */,
+				E30F5028B81C7685982C90E4 /* BattleScene.mm in Sources */,
 				E30F53CAA3999611FBCE82C4 /* PlayerSprite.mm in Sources */,
+				E30F5340303611689A6229DD /* CookieSprite.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

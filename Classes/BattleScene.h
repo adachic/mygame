@@ -14,25 +14,26 @@
 #define MAX_BLOCK_X 13
 #define MAX_BLOCK_Y 13
 
-class GameScene : public cocos2d::CCLayer {
+class BattleScene : public cocos2d::CCLayer {
 protected:
     enum kTag {
-        kTagBasePlayer = 10000,
+        kTagBaseCookie = 10000,
         kTagBackground = 1,
     };
     enum kZOrder {
         kZOrderBackground,
+        kZOrderCookie,
         kZOrderPlayer,
     };
     cocos2d::CCSprite *m_background;
     void showBackground();
 
-    float m_playerSize;
-    std::map<kPlayer, std::list<int>> m_PlayerTags;
+    float m_cookieSize;
+    std::map<kCookie, std::list<int>> m_cookieTags;
 
     void initForVariables();
 
-    void showPlayer();
+    void showCookies();
 
     cocos2d::CCPoint getPosition(int posIndexX, int posIndexY);
 
@@ -43,7 +44,7 @@ public:
 
     static cocos2d::CCScene *scene();
 
-    CREATE_FUNC(GameScene);
+    CREATE_FUNC(BattleScene);
 };
 
 #endif //__GameScene_H_

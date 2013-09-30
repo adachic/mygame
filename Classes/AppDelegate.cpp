@@ -1,5 +1,5 @@
 #include "AppDelegate.h"
-#include "GameScene.h"
+#include "BattleScene.h"
 
 USING_NS_CC;
 
@@ -27,7 +27,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
     director->setContentScaleFactor(320.0f / director->getWinSize().width);
 
     // create a scene. it's an autorelease object
-    Scene *scene = GameScene::scene();
+    Scene *scene = BattleScene::scene();
 
     // run
     director->runWithScene(scene);
